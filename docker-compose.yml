@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  logly:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./examples:/logs/:ro
+    working_dir: /code
+    environment:
+      - LOG_DIR=/logs
+    ports:
+      - 8050:8050

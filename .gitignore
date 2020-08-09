@@ -1,0 +1,16 @@
+venv/
+*.egg-info/
+__pycache__
+.eggs
+.ipynb_checkpoints
+*.pyc
+*.egg-info
+.DS_Store
+.tox
+junit.xml
+build/
+htmlcov/
+coverage.xml
+.idea/*
+tmp/
+.vscode/
