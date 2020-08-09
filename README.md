@@ -4,6 +4,8 @@
 
 Implementation of the plotly python library to plot time series data, this implementation overcomes the 150 mb limitation of the default upload feature of plotly by implementing a streamlined pandas based loading of csv files. 
 
+<img src="images/Capture.PNG">
+
 ## Installation
 
 ### Prerequisites
